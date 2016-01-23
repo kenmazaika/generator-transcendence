@@ -1,4 +1,4 @@
-# generator-transcendence [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+# generator-transcendence [![NPM version][npm-image]][npm-url] 
 > React / Webpack generator
 
 ## Installation
