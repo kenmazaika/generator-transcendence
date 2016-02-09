@@ -99,7 +99,11 @@ module.exports = yeoman.generators.Base.extend({
       this.destinationPath('public')
     );
     
+    // Yeoman sadly doesn't copy dotfiles, so the `.gitkeep` file isn't doing a whole lot of anything.
     shelljs.exec("mkdir " + this.destinationPath('build'));
+    shelljs.exec("mkdir " + this.destinationPath('src/containers'));
+    shelljs.exec("mkdir " + this.destinationPath('src/reducers'));
+    shelljs.exec("mkdir " + this.destinationPath('src/actions'));
 
     this.fs.copy(
       this.templatePath('gitignore'),
