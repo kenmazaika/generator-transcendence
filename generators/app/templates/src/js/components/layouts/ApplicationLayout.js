@@ -7,7 +7,7 @@ export default class ApplicationLayout extends React.Component {
     return(<div>
       <div className="main-container">
       <nav className="navbar navbar-default text-center" role="navigation">
-      <a href="javascript:void(0);" onClick={this.clicked}>Transcendence</a> was built by <a href="http://thefirehoseproject.com">Firehose</a>
+      <a href="javascript:void(0);">Transcendence</a> was built by <a href="http://thefirehoseproject.com">Firehose</a>
       </nav>
       {this.props.children}
       </div>

@@ -2,7 +2,7 @@ module.exports = {
   entry: getEntrySources(["./src/js/helpers/setProduction.js"]),
   output: {
     publicPath: '',
-    filename: 'build/bundle.js'
+    filename: 'bundle.js'
   },
   devtool: 'eval',
   module: {

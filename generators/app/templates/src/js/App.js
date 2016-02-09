@@ -15,10 +15,9 @@ import { combineReducers, createStore } from 'redux'
 
 import { Provider } from 'react-redux';
 import {reducer as formReducer} from 'redux-form';
-import SampleReducer from './reducers/SampleReducer'
 
 const reduxApp = combineReducers({
-  SampleReducer
+  form: formReducer
 });
 
 const store = createStore(reduxApp);

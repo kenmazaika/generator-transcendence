@@ -1,4 +1,4 @@
-# Firehose React Web Pack
+# Firehose React WebPack Front-end
 
 WebPack is an amazing tool that provides an awesome developer experience after initial setup.  This is my base configuration for a web application that runs with:
 
@@ -13,5 +13,3 @@ WebPack is an amazing tool that provides an awesome developer experience after i
 And also supports WebPackDevServer.
 
 This project is meant to transcend the web.  Transcendence.
-
-![transcend](http://i.imgur.com/b4vWtfs.png)
