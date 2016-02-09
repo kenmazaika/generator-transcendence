@@ -99,10 +99,7 @@ module.exports = yeoman.generators.Base.extend({
       this.destinationPath('public')
     );
     
-    this.fs.copy(
-      this.templatePath('build'),
-      this.destinationPath('build')
-    );
+    shelljs.exec("mkdir " + this.destinationPath('build'));
 
     this.fs.copy(
       this.templatePath('.gitignore'),
