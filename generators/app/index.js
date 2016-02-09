@@ -102,7 +102,7 @@ module.exports = yeoman.generators.Base.extend({
     shelljs.exec("mkdir " + this.destinationPath('build'));
 
     this.fs.copy(
-      this.templatePath('.gitignore'),
+      this.templatePath('gitignore'),
       this.destinationPath('.gitignore')
     );
     // Generate our package.json. Make sure to also include the required dependencies for styles
