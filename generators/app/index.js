@@ -109,6 +109,7 @@ module.exports = yeoman.generators.Base.extend({
       this.templatePath('gitignore'),
       this.destinationPath('.gitignore')
     );
+
     // Generate our package.json. Make sure to also include the required dependencies for styles
     let defaultSettings = this.fs.readJSON(this.templatePath('package.json'));
     let packageSettings = {
@@ -128,8 +129,6 @@ module.exports = yeoman.generators.Base.extend({
     
     
     this.fs.writeJSON(this.destinationPath('package.json'), packageSettings);
-    
-    
   },
   
   install: function () {

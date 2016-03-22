@@ -6,7 +6,6 @@ import {Route, IndexRoute} from'react-router';
 
 export default (
   <Route path="/" component={ApplicationLayout}>
-  
-  <IndexRoute component={Welcome} />
+    <IndexRoute component={Welcome} />
   </Route>
 );

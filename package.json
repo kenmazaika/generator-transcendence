@@ -1,7 +1,7 @@
 {
   "name": "generator-transcendence",
-  "version": "0.0.8",
-  "description": "React / Webpack generator",
+  "version": "0.0.9",
+  "description": "Transcendence Yeoman Generator: A WebPack application featuring React, Redux, lodash, Twitter Bootstrap ready for Heroku.",
   "homepage": "",
   "author": {
     "name": "Ken Mazaika",
