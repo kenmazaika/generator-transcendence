@@ -37,6 +37,7 @@
     "image-webpack-loader": "^1.6.3",
     "img-loader": "^1.2.0",
     "jquery": "^2.1.4",
+    "left-pad": "git://github.com/azer/left-pad.git#bff80e3ef0db0bfaba7698606c4f623433d14355",
     "lodash": "^3.10.1",
     "node-sass": "3.4.0",
     "pngquant-bin": "2.0.3",

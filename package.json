@@ -1,6 +1,6 @@
 {
   "name": "generator-transcendence",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Transcendence Yeoman Generator: A WebPack application featuring React, Redux, lodash, Twitter Bootstrap ready for Heroku.",
   "homepage": "",
   "author": {

@@ -134,5 +134,7 @@ module.exports = yeoman.generators.Base.extend({
   install: function () {
     shelljs.exec('npm install', {silent: false});
     shelljs.exec('npm install', {silent: false});
+    shelljs.exec('npm rebuild node-sass', {silent: false});
+    shelljs.exec('npm install', {silent: false});
   }
 });
