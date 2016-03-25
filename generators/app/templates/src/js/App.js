@@ -10,13 +10,16 @@ import { combineReducers, createStore } from 'redux';
 import { Provider } from 'react-redux';
 import {reducer as formReducer} from 'redux-form';
 import history from './helpers/history';
+import ReduxPromise from 'redux-promise';
 
 
 const reduxApp = combineReducers({
   form: formReducer
 });
 
-const store = createStore(reduxApp);
+const createStoreWithMiddleware = applyMiddleware(ReduxPromise)(createStore);
+const store = createStoreWithMiddleware(reduxApp);
+
 const dispatch = (action) => {
   store.dispatch(action);
 };
