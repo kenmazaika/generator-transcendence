@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom';
 import { Router } from 'react-router';
 import routes from './config/routes';
 import $ from 'jquery';
-import { combineReducers, createStore } from 'redux';
+import { combineReducers, createStore, applyMiddleware } from 'redux';
 
 import { Provider } from 'react-redux';
 import {reducer as formReducer} from 'redux-form';
